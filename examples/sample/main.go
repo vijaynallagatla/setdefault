@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/vijaynallagatla/defaultor"
+	"github.com/vijaynallagatla/setdefault/v1"
 )
 
 type Example struct {
@@ -13,7 +13,7 @@ type Example struct {
 
 func main() {
 	example := Example{}
-	defaultor.BindDefault(&example)
+	setdefault.Bind(&example)
 	fmt.Println(example.Name)       // Output: John Doe
 	fmt.Println(example.Age)        // Output: 30
 	fmt.Println(example.Profession) // Output: Engineer

@@ -1,4 +1,4 @@
-package defaultor
+package setdefault
 
 import (
 	"reflect"
@@ -28,7 +28,7 @@ func TestBindDefault(t *testing.T) {
 	testStruct := TestStruct{UnsettableField: 123}
 	reflect.ValueOf(&testStruct).Elem().FieldByName("UnsettableField").Set(reflect.ValueOf(0).Convert(reflect.TypeOf(testStruct.UnsettableField)))
 
-	BindDefault(&testStruct)
+	Bind(&testStruct)
 
 	if testStruct.StringField != "default string value" {
 		t.Errorf("Expected default value of 'default string value', but got '%s'", testStruct.StringField)
