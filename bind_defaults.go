@@ -1,4 +1,4 @@
-package defaultor
+package setdefault
 
 import (
 	"reflect"
@@ -7,7 +7,7 @@ import (
 
 const defaultTagName = "default"
 
-func BindDefault(s interface{}) {
+func Bind(s interface{}) {
 	value := reflect.ValueOf(s).Elem()
 	typ := value.Type()
 	for i := 0; i < typ.NumField(); i++ {
