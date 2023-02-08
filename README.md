@@ -1,1 +1,3 @@
-# Binding the default values for the Structs and individual fields based on the tag
+# Binding the default values
+
+**Bind/assign the default for the Structs and individual fields based on the tag**
