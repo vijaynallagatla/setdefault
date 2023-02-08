@@ -1,3 +1,3 @@
-module github.com/vijaynallagatla/bind-default
+module github.com/vijaynallagatla/defaultor
 
 go 1.19
