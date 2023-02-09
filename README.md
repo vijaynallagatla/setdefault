@@ -1,4 +1,4 @@
-# Binding the default values
+# Bind the default values
 
 [![Join the chat at https://gitter.im/bind-default/community](https://badges.gitter.im/bind-default/community.svg)](https://gitter.im/bind-default/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ![Project status](https://img.shields.io/badge/version-0.1.0-green.svg)
